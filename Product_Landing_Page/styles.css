@@ -31,6 +31,16 @@ header{
     justify-content: space-between;
 }
 
+#nav-bar{
+
+    top: 0;
+    position: fixed;
+    width: 100%;
+
+}
+
+
+
 nav#nav-bar ul{
     display: flex;
 }
@@ -79,7 +89,7 @@ nav#nav-bar ul li  a{
     width: 250px;
 }
 
-.subscribe input#input{
+.subscribe input#submit{
     width: 150px;
     border: none;
     font-size: 1rem;
@@ -126,7 +136,7 @@ nav#nav-bar ul li  a{
     }
 }
 
-section#video{
+section#video1{
 
     text-align: center;
     margin: 5rem 0;

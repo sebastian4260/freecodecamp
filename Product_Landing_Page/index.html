@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+
+    <style>
+        @media (max-width: 600px) {
+          .facet_sidebar {
+            display: none;
+          }
+        }
+
+
+    .flex-container {
+      display: flex;
+      background-color: DodgerBlue;
+    }
+    
+  
+
+        </style>
     
 </head>
 
@@ -24,9 +41,9 @@
 
             <nav id="nav-bar">
                 <ul>
-                    <li><a href="#featured" id="nav-link">Features</a></li>
-                    <li><a href="#video" id="nav-link">How it works</a></li>
-                    <li><a href="#pricing" id="nav-link">Pricing</a></li>
+                    <li><a href="#featured" id="nav-link" class="nav-link">Features</a></li>
+                    <li><a href="#video" id="nav-link" class="nav-link">How it works</a></li>
+                    <li><a href="#pricing" id="nav-link" class="nav-link">Pricing</a></li>
                 </ul>
 
 
@@ -35,9 +52,10 @@
 
         <div class="cointainer subscribe">
             <h2>Handcrafted, home-made masterpieces</h2>
-            <form action=" https://www.freecodecamp.com/email-submit" id="form">
-            <input id="email" type="email" placeholder="Enter your email">
-            <input id="input" type="submit" value="Get Started">
+
+            <form id="form" action=" https://www.freecodecamp.com/email-submit" >
+            <input name="email" id="email" type="email" placeholder="Enter your email">
+            <input id="submit" type="submit" value="Get Started">
             
             </form>
 
@@ -74,10 +92,14 @@
             </div>
         </section>
 
-        <section id="video">
+        <section id="video1">
+            
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>></iframe>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        
+        </iframe>>
 
 
         </section>
